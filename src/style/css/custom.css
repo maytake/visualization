@@ -1,0 +1,156 @@
+/*重庆*/
+			.c-cq-banner {
+				position: absolute;
+				width: 800px;
+				height: 640px;
+				left: 50%;
+				top: 50%;
+				margin-left: -300px;
+				margin-top: -360px;
+				z-index: 99999;
+			}
+			
+			.c-cq-map {
+				position: absolute;
+				background: url(images/images-cq/map.png) no-repeat center;
+				width: 926px;
+				height: 435px;
+				left: -160px;
+				bottom: -100px;
+			}
+			
+			.c-cq-leaf {
+				position: absolute;
+				background: url(images/images-cq/leaf.png) no-repeat center;
+				width: 900px;
+				height: 640px;
+				left: -150px;
+				bottom: -10px;
+			}
+			
+			.c-cq-poi {
+				position: absolute;
+				left: 0;
+				top: 0;
+				background: no-repeat center;
+			}
+			
+			.c-cq-poi-1 {
+				background-image: url(images/images-cq/c-cq-poi-1.png);
+				width: 107px;
+				height: 107px;
+				left: 140px;
+				top: 210px;
+			}
+			
+			.c-cq-poi-2 {
+				background-image: url(images/images-cq/c-cq-poi-2.png);
+				width: 130px;
+				height: 130px;
+				left: 40px;
+				top: 310px;
+			}
+			
+			.c-cq-poi-3 {
+				background-image: url(images/images-cq/c-cq-poi-3.png);
+				width: 157px;
+				height: 157px;
+				left: 260px;
+				top: 260px;
+			}
+			
+			.c-cq-poi-4 {
+				background-image: url(images/images-cq/c-cq-poi-4.png);
+				width: 119px;
+				height: 119px;
+				left: 480px;
+				top: 200px;
+			}
+			
+			.c-cq-poi-5 {
+				background-image: url(images/images-cq/c-cq-poi-5.png);
+				width: 83px;
+				height: 83px;
+				left: 400px;
+				top: 180px;
+			}
+			
+			@-webkit-keyframes ballmove {
+				from {
+					-webkit-transform: translate3d(0, -20px, 0) scale3d(1, 1, 1);
+					transform: translate3d(0, -20px, 0) scale3d(1, 1, 1);
+				}
+			
+				50% {
+					-webkit-transform: translate3d(0, 20px, 0)scale3d(1.05, 1.05, 1.05);
+					transform: translate3d(0, 20px, 0) scale3d(1.05, 1.05, 1.05);
+				}
+			
+				to {
+					-webkit-transform: translate3d(0, -20px, 0) scale3d(1, 1, 1);
+					transform: translate3d(0, -20px, 0) scale3d(1, 1, 1);
+				}
+			}
+			
+			@keyframes ballmove {
+				from {
+					-webkit-transform: translate3d(0, -5px, 0) scale3d(1, 1, 1);
+					transform: translate3d(0, -5px, 0) scale3d(1, 1, 1);
+				}
+			
+				50% {
+					-webkit-transform: translate3d(0, 10px, -0)scale3d(0.8, 0.8, 0.8);
+					transform: translate3d(0, 10px, -0) scale3d(0.8, 0.8, 0.8);
+				}
+			
+				to {
+					-webkit-transform: translate3d(0, -5px, 0) scale3d(1, 1, 1);
+					transform: translate3d(0, -5px, 0) scale3d(1, 1, 1);
+				}
+			}
+			
+			.ballmove {
+				-webkit-animation-name: ballmove;
+				animation-name: ballmove;
+			}
+			
+			
+			
+			@-webkit-keyframes mapmove {
+				from {
+					-webkit-transform: translate3d(0, -20px, 0) scale3d(1, 1, 1);
+					transform: translate3d(0, -20px, 0) scale3d(1, 1, 1);
+				}
+			
+				50% {
+					-webkit-transform: translate3d(0, 20px, 0)scale3d(1.05, 1.05, 1.05);
+					transform: translate3d(0, 20px, 0) scale3d(1.05, 1.05, 1.05);
+				}
+			
+				to {
+					-webkit-transform: translate3d(0, -20px, 0) scale3d(1, 1, 1);
+					transform: translate3d(0, -20px, 0) scale3d(1, 1, 1);
+				}
+			}
+			
+			@keyframes mapmove {
+				from {
+					-webkit-transform: translate3d(0, -2px, 0) scale3d(1, 1, 1);
+					transform: translate3d(0, -2px, 0) scale3d(1, 1, 1);
+				}
+			
+				50% {
+					-webkit-transform: translate3d(0, 2px, -0)scale3d(0.98, 0.98, 0.98);
+					transform: translate3d(0, 2px, -0) scale3d(0.98, 0.98, 0.98);
+				}
+			
+				to {
+					-webkit-transform: translate3d(0, -2px, 0) scale3d(1, 1, 1);
+					transform: translate3d(0, -2px, 0) scale3d(1, 1, 1);
+				}
+			}
+			
+			.mapmove {
+				-webkit-animation-name: mapmove;
+				animation-name: mapmove;
+			}

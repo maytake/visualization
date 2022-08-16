@@ -1,0 +1,184 @@
+{
+  "id": "2081808",
+  "name": "HUI-大屏图标",
+  "font_family": "c-iconfont",
+  "css_prefix_text": "c-icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "13023791",
+      "name": "删除",
+      "font_class": "delete",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "13024113",
+      "name": "搜索",
+      "font_class": "search",
+      "unicode": "f148",
+      "unicode_decimal": 61768
+    },
+    {
+      "icon_id": "13030939",
+      "name": "设置",
+      "font_class": "setting",
+      "unicode": "f130",
+      "unicode_decimal": 61744
+    },
+    {
+      "icon_id": "13031000",
+      "name": "最小化",
+      "font_class": "restore",
+      "unicode": "f138",
+      "unicode_decimal": 61752
+    },
+    {
+      "icon_id": "13031001",
+      "name": "最大化",
+      "font_class": "maximize",
+      "unicode": "f139",
+      "unicode_decimal": 61753
+    },
+    {
+      "icon_id": "13032466",
+      "name": "帮助",
+      "font_class": "help",
+      "unicode": "f132",
+      "unicode_decimal": 61746
+    },
+    {
+      "icon_id": "13032570",
+      "name": "时间",
+      "font_class": "time",
+      "unicode": "f133",
+      "unicode_decimal": 61747
+    },
+    {
+      "icon_id": "13033231",
+      "name": "关闭",
+      "font_class": "close",
+      "unicode": "f128",
+      "unicode_decimal": 61736
+    },
+    {
+      "icon_id": "13033591",
+      "name": "箭头-上",
+      "font_class": "up",
+      "unicode": "f134",
+      "unicode_decimal": 61748
+    },
+    {
+      "icon_id": "13033592",
+      "name": "箭头-左",
+      "font_class": "left",
+      "unicode": "f135",
+      "unicode_decimal": 61749
+    },
+    {
+      "icon_id": "13033593",
+      "name": "箭头-下",
+      "font_class": "down",
+      "unicode": "f136",
+      "unicode_decimal": 61750
+    },
+    {
+      "icon_id": "13033594",
+      "name": "箭头-右",
+      "font_class": "right",
+      "unicode": "f137",
+      "unicode_decimal": 61751
+    },
+    {
+      "icon_id": "13082277",
+      "name": "设置激活",
+      "font_class": "setting-active",
+      "unicode": "f129",
+      "unicode_decimal": 61737
+    },
+    {
+      "icon_id": "13395575",
+      "name": "确认_审核_核对",
+      "font_class": "confirm",
+      "unicode": "f085",
+      "unicode_decimal": 61573
+    },
+    {
+      "icon_id": "13395576",
+      "name": "提示-警告",
+      "font_class": "warning",
+      "unicode": "f086",
+      "unicode_decimal": 61574
+    },
+    {
+      "icon_id": "13395578",
+      "name": "提示-错误",
+      "font_class": "danger",
+      "unicode": "f088",
+      "unicode_decimal": 61576
+    },
+    {
+      "icon_id": "13395579",
+      "name": "提示-成功",
+      "font_class": "success",
+      "unicode": "f089",
+      "unicode_decimal": 61577
+    },
+    {
+      "icon_id": "13395580",
+      "name": "提示-信息",
+      "font_class": "info",
+      "unicode": "f090",
+      "unicode_decimal": 61584
+    },
+    {
+      "icon_id": "13396116",
+      "name": "收起侧边栏",
+      "font_class": "side-contract",
+      "unicode": "f082",
+      "unicode_decimal": 61570
+    },
+    {
+      "icon_id": "13396117",
+      "name": "展开侧边栏",
+      "font_class": "side-expand",
+      "unicode": "f083",
+      "unicode_decimal": 61571
+    },
+    {
+      "icon_id": "13484418",
+      "name": "返回",
+      "font_class": "arrow-up",
+      "unicode": "f098",
+      "unicode_decimal": 61592
+    },
+    {
+      "icon_id": "13484427",
+      "name": "返回",
+      "font_class": "arrow-down",
+      "unicode": "f099",
+      "unicode_decimal": 61593
+    },
+    {
+      "icon_id": "13774390",
+      "name": "刷新",
+      "font_class": "refresh",
+      "unicode": "f023",
+      "unicode_decimal": 61475
+    },
+    {
+      "icon_id": "13822998",
+      "name": "显示高级",
+      "font_class": "open",
+      "unicode": "f009",
+      "unicode_decimal": 61449
+    },
+    {
+      "icon_id": "13822999",
+      "name": "隐藏高级",
+      "font_class": "hidden",
+      "unicode": "f010",
+      "unicode_decimal": 61456
+    }
+  ]
+}

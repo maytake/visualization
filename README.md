@@ -1,24 +1,31 @@
 # visualization
 
-## Project setup
-```
-npm install
-```
+# 可视化组件页面
 
-### Compiles and hot-reloads for development
-```
+### 1.安装组件库
+
+````bash
+npm i
+
+### 快速开始
+``` bash
 npm run serve
 ```
 
+
 ### Compiles and minifies for production
 ```
+
 npm run build
+
 ```
 
 ### Lints and fixes files
 ```
+
 npm run lint
+
 ```
 
 ### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```

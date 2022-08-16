@@ -1,0 +1,155 @@
+@import url('iconfont/iconfont.css');
+/*======================================
+		HUI CSS
+		author:   design4u(66383210)
+		Date:     2020-02
+======================================*/
+[class*="c-icon"]{
+	
+	font-family: "c-iconfont" !important;
+	-webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-weight: normal;
+    -moz-osx-font-smoothing: grayscale;
+    vertical-align: middle;
+	
+}
+.c-icon:before {
+    display: inline-block;
+    background-position: 0 0;
+    
+}
+
+/*图片图标*/
+[class*="c-icon-img"] {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	vertical-align: middle;
+}
+
+
+
+/*图标大小*/
+
+
+.c-icon-xs {
+    width: 10px;
+    height: 10px;
+    font-size:10px !important;
+}
+.c-icon-sm {
+    width: 12px;
+    height: 12px;
+    font-size:12px !important;
+}
+
+.c-icon-l {
+    width: 24px;
+    height: 24px;
+    font-size: 24px !important;
+}
+
+.c-icon-xl{
+    width: 32px;
+    height: 32px;
+    font-size: 32px !important;
+    
+}
+
+.c-icon-xxl{
+    width: 48px;
+    height: 48px;
+   font-size: 48px !important;
+}
+
+.c-icon-xxxl{
+    width: 64px;
+    height: 64px;
+    font-size: 64px !important;
+    
+}
+
+/*图标形状*/
+.c-icon.c-circle,
+.c-icon.c-radius{
+    padding: 2px;
+    width: 12px;
+    height: 12px; 
+    line-height: 1;
+    font-size: 12px !important;
+}
+
+
+.c-icon-l.c-circle,
+.c-icon-l.c-radius{
+    padding: 4px;
+    width: 16px;
+    height: 16px;
+    font-size: 16px !important;
+}
+
+
+.c-icon-xl.c-circle,
+.c-icon-xl.c-radius{
+    padding: 6px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px !important;
+}
+
+
+
+.c-icon-xxl.c-circle,
+.c-icon-xxl.c-radius{
+    padding: 8px;
+    width: 32px;
+    height: 32px;
+    font-size: 32px !important;
+}
+
+.c-icon-xxxl.c-circle,
+.c-icon-xxxl.c-radius{
+    padding: 10px;
+     width: 42px;
+    height: 42px;
+    font-size: 42px !important;
+}
+
+/*图标里面的徽章*/
+.c-icon .c-badge {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+}
+.c-icon-l .c-badge {
+    right: -8px;
+    top: -8px;
+}
+.c-icon-xl .c-badge {
+    right: -6px;
+    top: -6px;
+}
+.c-icon-xxl .c-badge {
+    right: -4px;
+    top: -4px;
+}
+.c-icon-xxxl .c-badge {
+    right: -2px;
+    top: -2px;
+}
+
+/*=============================
+控件按钮图标
+=============================*/
+a.c-icon:hover {
+    filter: alpha(Opacity=80);
+    -moz-opacity: 0.8;
+    opacity: 0.8;
+}
+
+
+
