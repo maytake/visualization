@@ -3,13 +3,17 @@
 # 可视化组件页面
 
 ### 1.安装组件库
+```bash
 
-````bash
 npm i
+
+```
 
 ### 快速开始
 ``` bash
+
 npm run serve
+
 ```
 
 
